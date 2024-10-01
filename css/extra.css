@@ -1,0 +1,260 @@
+:root {
+    --blue-new: #214495;
+
+			--portfolio-primary: #4cc1be;
+			--portfolio-on-primary: #000;
+	
+}
+body{
+	text-decoration: none !important;
+}
+
+.sub-hero-section{
+
+
+/* gap: 10px; */
+background-color: var(--blue-new) !important;
+/* color: whitesmoke; */
+/* min-height: 90px; */
+min-height: 200px;
+position: relative;
+}
+
+.sub-hero-section > div  {
+ background-color: whitesmoke;
+ height: fit-content;
+ width: 80%;
+margin: auto;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+}
+
+.sub-hero-section > div > p {
+    /* max-width: 20%; */
+    font-weight: 800;
+    font-size: 1.5625rem;
+    color: var(--blue-new) !important;
+    margin-bottom: 0.1125rem !important;
+    padding: 10px 0 !important;
+    text-decoration: underline;
+}
+
+.sub-hero-section > div > h2 {
+    /* max-width: 70%; */
+    font-size: 20px;
+    color: var(--blue-new) !important;
+	padding-bottom: 13px;
+
+}
+
+.c-values {
+	padding: 30px;
+	color: #0062ff !important;
+
+}
+
+.work-desk {
+	padding: 10px;
+}
+
+.work-desk > div > h2 {
+	color: #151414;
+	font-size: 19px;
+	font-weight: 700;
+	color: white;
+	padding: 10px 0;
+
+	
+}
+
+.text-custom {
+	font-weight: 700;
+}
+
+.work-desk > div > p {
+		color: white;
+
+}
+
+.ts-service-box-info {
+	margin-left: 5px;
+}
+
+.service-box-title{
+	font-size: 17px !important;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+.ts-title {
+	font-size: 23px;
+	font-weight: 600; 
+	color: #151414 !important;
+
+	margin-bottom: 15px ;
+}
+
+.ts-service-box {
+	margin-bottom: 10px !important;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+
+.subscribe {
+    background: #ffb600;
+    padding: 0;
+}
+
+.ts-newsletter {
+    background: #252525;
+    position: relative;
+    min-height: 115px;
+    padding: 15px 0 0 50px;
+}
+
+.ts-newsletter:after {
+    content: "";
+    position: absolute;
+    background: #252525;
+    display: block;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.newsletter-form input {
+    background: none;
+    font-size: 12px;
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-call-to-acton h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+	font-weight: 700;
+	color: #151414;
+}
+
+.subscribe-call-to-acton h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+	font-weight: 700;
+
+}
+
+
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 575px) {
+    .subscribe-call-to-acton {
+        text-align: center;
+        padding: 30px 0;
+        min-height: auto;
+    }
+
+	.ts-newsletter {
+        padding: 30px 5px 15px 5px;
+        min-height: auto;
+        text-align: center;
+    }
+
+	.sub-hero-section > div > p {
+    /* max-width: 20%; */
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--blue-new) !important;
+    margin-bottom: 0.1125rem !important;
+    padding: 10px 0 !important;
+    text-decoration: underline;
+}
+
+.sub-hero-section > div > h2 {
+    /* max-width: 70%; */
+    font-size: 15px;
+    color: var(--blue-new) !important;
+	padding-bottom: 13px;
+
+}
+.sub-hero-section > div  {
+ background-color: whitesmoke;
+ height: fit-content;
+ width: 80%;
+margin: auto;
+text-align: center;
+margin-top: 1px;
+margin-bottom: 15px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+}
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+.the_champ_button_instagram span.the_champ_svg,a.the_champ_instagram span.the_champ_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+					.the_champ_horizontal_sharing .the_champ_svg,.heateor_ss_standard_follow_icons_container .the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing span.the_champ_svg:hover,.heateor_ss_standard_follow_icons_container span.the_champ_svg:hover{
+				border-color: transparent;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg,.heateor_ss_floating_follow_icons_container span.the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg:hover,.heateor_ss_floating_follow_icons_container span.the_champ_svg:hover{
+						border-color: transparent;
+		}
+	@media screen and (max-width:783px){
+		.the_champ_vertical_sharing{display:none!important}
+		
+		.ts-service-box {
+	margin-bottom: 5px !important;
+}
+	}
