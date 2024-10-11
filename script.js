@@ -106,7 +106,7 @@ const headerContent = `	<div id="ast-desktop-header" data-toggle-type="dropdown"
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1031"><a href="csr.html" class="menu-link">CSR</a></li>
 
 
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://emobellaengineering.com/contact/" class="menu-link">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="contact.html" class="menu-link">Contact</a></li>
 </ul></div></nav></div></div>		</div>
 			</div>
 </div>`;
