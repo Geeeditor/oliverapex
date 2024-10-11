@@ -24,7 +24,7 @@ const headerContent = `	<div id="ast-desktop-header" data-toggle-type="dropdown"
 <ul class="sub-menu">
 	<li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1045" aria-haspopup="true"><a href="solar-power.html" class="menu-link">Solar Power Solutions</a>
 </li>
-	<li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1045" aria-haspopup="true"><a href="water-well.html" class="menu-link">Water well drilling</a>
+	<li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1045" aria-haspopup="true"><a href="water-well.html" class="menu-link">Water well drilling & filtration</a>
 </li>
 	<li id="menu-item-1045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1045" aria-haspopup="true"><a href="power.html" class="menu-link">Power Plant Maintenance & Constructuin</a>
 </li>
@@ -250,7 +250,7 @@ const footerContent = `<div data-elementor-type="wp-post" data-elementor-id="795
 
 												<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="fa-angle-right fas"></i>						</span>
-										<span class="elementor-icon-list-text">Water Well Drilling      </span>
+										<span class="elementor-icon-list-text">Water Well Drilling & filtration      </span>
 											</a>
 									</li>
 								<li class="elementor-icon-list-item">
